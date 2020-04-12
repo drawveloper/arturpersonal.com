@@ -1,70 +1,33 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Sua saúde merece atenção personalizada
+image: /img/artur/saude.jpeg
+heading: Vamos mudar as coisas, juntos.
+subheading: Descubra como um personal trainer pode te ajudar a atingir seus objetivos
 mainpitch:
-  title: Why Kaldi
+  title: Prazer, eu sou o Artur Rodrigues.
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Sou carioca, Personal Trainer e professor de Educação Física há 16 anos e quero te ajudar a atingir seus objetivos. Se você quer mudar seus hábitos e começar uma vida mais saudável, eu estou aqui pra te ajudar. Me liga, ou manda um zap! +55 (21) 99265-4093
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Eu ensino em academias e pessoalmente. Meus planos são personalizados e as primeiras duas aulas são de graça. 
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/artur/em-casa.jpeg
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Malhar em casa é possível! Faço aulas online por vídeo. Você só precisa de um tapete e muita disposição. Em aulas de 30 a 50 minutos, vamos trabalhar com o peso do seu corpo e te deixar suando. Excelente para começar o dia, ou para desestressar no depois de um dia inteiro em frente ao computador.
+    - image: /img/melhor-idade.jpeg
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Na terceira idade, temos que ter cuidado redobrado com a saúde. Sou especializado em idosos e adoro ajudar meus alunos a levarem vidas mais completas, com mais disposição para passar tempo com quem a gente ama.
+    - image: /img/mulheres.jpeg
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        O corpo feminino requer cuidado especial no treinamento. Se você é uma atleta feminina ou está apenas começando, conte comigo.
+    - image: /img/homens.jpeg
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Seja para perder a barriguinha ou entrar em forma para o próximo open, eu posso te ajudar.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
