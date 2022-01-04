@@ -1,0 +1,5 @@
+export * from "./about/about"
+export * from "./consulting/consulting"
+export * from "./notes/notes"
+export * from "./contact/contact"
+export * from "./instagram/instagram"
