@@ -5,13 +5,6 @@
  */
 
 module.exports = {
-  siteMetadata: {
-    title: "Artur Rodrigues personal trainer, Rio de Janeiro",
-    description:
-      "Consultas seguras, sem contato. Dias e horários flexíveis, local à sua escolha. Reserve já. Cada corpo é único. Exercícios Pensados Especialmente para Você.",
-    url: "https://arturpersonal.com/",
-    image: "",
-  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -34,6 +27,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    'gatsby-plugin-react-helmet',
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,

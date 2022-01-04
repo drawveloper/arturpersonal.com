@@ -36,12 +36,12 @@ export const SectionAbout = ({ title }) => {
 
   return (
     <AboutWrapper id="about">
-      <h2 data-sal="fade" data-sal-delay="300">
+      <h2>
         {title}
       </h2>
       <AboutBackground>
         <Content>
-          <AboutContent data-sal="fade" data-sal-delay="500">
+          <AboutContent>
             <Img fixed={data.image.childImageSharp.fixed} />
             {result.map(value => {
               return <div dangerouslySetInnerHTML={{ __html: value.html }} />

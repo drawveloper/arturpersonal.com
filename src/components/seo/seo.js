@@ -1,55 +1,39 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { StaticQuery, graphql } from "gatsby"
 
-export const Seo = ({ description, keywords, title, image, url }) => {
+export const Seo = () => {
+  const siteMetadata = {
+    title: "Artur Rodrigues — Personal Trainer no Rio de Janeiro — Flamengo, Largo do Machado, Botafogo, Copacabana, Ipanema, Leblon e toda Zona Sul, aulas online.",
+    description:
+      "Aulas de Personal Trainer para mudar sua vida e melhorar sua saúde com método e atenção profissional. Cada corpo é único. Exercícios pensados especialmente para você. Dias e horários flexíveis, treine onde quiser — em casa ou na academia.",
+    url: "https://arturpersonal.com/",
+    image: "https://arturpersonal.com/static/034b535f352ad06f9c349abe9a63bb99/f3672/hero.jpg",
+    keywords: [
+      "personal trainer",
+      "personal trainer rj",
+      "personal trainer rio de janeiro",
+      "personal trainer flamengo",
+      "personal trainer largo do machado",
+      "personal trainer botafogo",
+      "personal trainer copacabana",
+    ],
+  }
+  
   return (
-    <StaticQuery
-      query={detailsQuery}
-      render={data => {
-        const metaDescription =
-          description || data.site.siteMetadata.description
-        const metaTitle = title || data.site.siteMetadata.title
-        const metaUrl = url || data.site.siteMetadata.url
-        const metaImage = image || data.site.siteMetadata.image
-        const metaKeywords = keywords || [
-          "personal trainer",
-          "personal trainer rj",
-        ]
-        return (
-          <Helmet
-            title={title || data.site.siteMetadata.title}
-            meta={[
-              { name: `description`, content: metaDescription },
-              { property: `og:title`, content: metaTitle },
-              { property: `og:description`, content: metaDescription },
-              { property: `og:type`, content: `website` },
-              { property: `og:image`, content: metaImage },
-              { property: `og:url`, content: metaUrl },
-            ].concat(
-              metaKeywords && metaKeywords.length > 0
-                ? {
-                    name: `keywords`,
-                    content: metaKeywords.join(`, `),
-                  }
-                : []
-            )}
-          />
-        )
-      }}
+    <Helmet
+      title={siteMetadata.title}
+      meta={[
+        { name: `description`, content: siteMetadata.description },
+        { property: `og:title`, content: siteMetadata.title },
+        { property: `og:description`, content: siteMetadata.description },
+        { property: `og:type`, content: `website` },
+        { property: `og:image`, content: siteMetadata.image },
+        { property: `og:url`, content: siteMetadata.url },
+      ].concat({
+          name: `keywords`,
+          content: siteMetadata.keywords.join(`, `),
+        }
+      )}
     />
   )
 }
-
-const detailsQuery = graphql`
-  query DefaultSEOQuery {
-    site {
-      siteMetadata {
-        description
-        image
-        title
-        url
-      }
-    }
-  }
-`
