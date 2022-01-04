@@ -15,15 +15,27 @@ export const BannerWrapper = styled.div`
     object-position: 0px !important;
   }
 
-  @media ${props => props.theme.breakpoints.mobile} {
-    height: 300px;
-
-    img {
+  @media ${props => props.theme.breakpoints.tablet} {
+    height: 350px;
+    
+    .banner img {
       object-position: -150px !important;
     }
 
     .gatsby-image-wrapper {
-      height: 300px !important;
+      height: 350px !important;
+    }
+  }
+  
+  @media ${props => props.theme.breakpoints.mobile} {
+    height: 350px;
+    
+    .banner img {
+      object-position: -400px !important;
+    }
+
+    .gatsby-image-wrapper {
+      height: 350px !important;
     }
   }
 `
@@ -37,6 +49,13 @@ export const BannerContent = styled.div`
     max-height: 350px;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 2em 2em;
+  }
+  
+  @media ${props => props.theme.breakpoints.mobile} {
+    div.card {
+      max-width: 100%;
+      padding: 1em 1em;
+    }
   }
   
   h1 {
@@ -58,7 +77,15 @@ export const BannerContent = styled.div`
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 70%;
+    padding: 0 ${props => props.theme.spacings.small};
+  }
+  
+  @media ${props => props.theme.breakpoints.mobile} {
+    h1 {
+      font-size: 1.7em;
+    }
+    
     width: 100%;
-    padding: 0 ${props => props.theme.spacings.medium};
   }
 `

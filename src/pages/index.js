@@ -14,7 +14,6 @@ import {
   SectionConsulting,
   SectionNotes,
   SectionContact,
-  SectionInstagram,
 } from "../section"
 
 export default function Home() {
@@ -29,7 +28,6 @@ export default function Home() {
       <SectionAbout title="Sobre" />
       <SectionConsulting title="Consultoria" />
       <SectionNotes title="Vamos mudar as coisas, juntos!" />
-      {/* <SectionInstagram title="Veja o que está rolando no instagram" /> */}
       <SectionContact title="Contato" />
       <Footer />
       <GoToTop />

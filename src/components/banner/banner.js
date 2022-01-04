@@ -36,7 +36,7 @@ export default function Banner() {
 
   return (
     <BannerWrapper>
-      <Img fixed={data.image.childImageSharp.fixed} />
+      <Img className="banner" fixed={data.image.childImageSharp.fixed} />
       <BannerContent>
         <div className="card">
           {result.map(value => {

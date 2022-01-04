@@ -42,4 +42,8 @@ export const ButtonWrapper = styled.button`
       line-height: normal;
     }
   }
+  
+  @media ${props => props.theme.breakpoints.mobile} {
+    padding: 3px 5px;
+  }
 `

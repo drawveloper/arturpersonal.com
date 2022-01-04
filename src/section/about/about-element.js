@@ -42,6 +42,7 @@ export const AboutContent = styled.div`
   @media ${props => props.theme.breakpoints.mobile} {
     .gatsby-image-wrapper {
       max-width: 90%;
+      max-height: 350px;
     }
   }
 `

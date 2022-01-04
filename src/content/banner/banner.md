@@ -2,6 +2,6 @@
 
 # qualidade de vida?
 
-Pode parecer difícil, mas uma vida mais saudável é **possível para todos!**
+Pode parecer difícil, mas uma vida saudável é **possível para todos!**
 
 Eu posso te ajudar a atingir seu peso ideal, com método e atenção profissional.

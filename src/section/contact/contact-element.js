@@ -15,7 +15,18 @@ export const ContactBackgroundWrapper = styled.div`
   justify-content: center;
 
   @media ${props => props.theme.breakpoints.tablet} {
+    button {
+      margin: 0 auto 20px auto;
+      display: block;
+    }
     background-image: none;
+  }
+  
+  @media ${props => props.theme.breakpoints.mobile} {
+    button {
+      margin: 0 auto 20px auto;
+      display: block;
+    }
   }
 `
 
