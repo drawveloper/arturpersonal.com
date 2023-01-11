@@ -28,7 +28,7 @@
     "gatsby-plugin-styled-components": "^3.10.0",
     "gatsby-remark-images": "^3.11.1",
     "gatsby-source-filesystem": "^2.11.1",
-    "gatsby-transformer-remark": "^3.0.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.12.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
